@@ -19,6 +19,7 @@ th {
 }
 img {
     border: 3px solid #6FAC44;
+    padding: 10px;
     width: 200px;
     height: 150px;
     margin-top: 10px;
