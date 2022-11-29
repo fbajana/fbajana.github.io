@@ -1,0 +1,43 @@
+@charset "charset";
+body {
+    background-color: #6FAC44;
+}
+table {
+    width: 600px;
+    background-color: #C5E1B1;
+    align-items: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+th {
+    text-align: left;
+    font-weight: 300;
+    height: 30px;
+}
+img {
+    border: 3px solid #6FAC44;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: white;
+}
+caption {
+    color: white;
+    caption-side: bottom;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color:white;
+}
