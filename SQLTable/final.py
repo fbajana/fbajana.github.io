@@ -83,14 +83,16 @@ def commit_close():
     c.close()
     conn.close()
 
+    
+# Coment out the function that is not used with #
 def main():
-    #show_connection()
-    #read_data()
-    #drop_menagrie()
-    #make_menagerie()
-    #femaleDogs()
-    #namesAndBirth()
-    #petPerOwner()
+    show_connection()
+    read_data()
+    drop_menagrie()
+    make_menagerie()
+    femaleDogs()
+    namesAndBirth()
+    petPerOwner()
     finalTable()
 
     commit_close()
